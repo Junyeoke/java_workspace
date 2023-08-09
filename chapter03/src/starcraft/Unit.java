@@ -1,7 +1,9 @@
 package starcraft;
 
-public class Unit {
+import java.util.Scanner;
 
+public class Unit {
+	Scanner sc = new Scanner(System.in);
 	protected String name;
 	protected int power;
 	protected int hp;
@@ -54,5 +56,8 @@ public class Unit {
 		System.out.println("공격력 : " + power);
 		System.out.println("체력 : " + hp);
 	}
+	
+	
+	
 
 }
