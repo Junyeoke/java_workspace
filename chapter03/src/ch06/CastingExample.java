@@ -18,7 +18,7 @@ public class CastingExample {
 		Brid bird = (Brid)animal;
 		bird.fly();
 		
-		
+	
 		// 배열을 활용
 		Animal[] animals = new Animal[3];
 		animals[0] = new Animal();
